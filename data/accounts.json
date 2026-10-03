@@ -1,0 +1,51 @@
+[
+  {
+    "id": "acc_1",
+    "name": "HBL",
+    "type": "Bank",
+    "openingBalance": 322447.0,
+    "notes": ""
+  },
+  {
+    "id": "acc_2",
+    "name": "Home Account",
+    "type": "Cash",
+    "openingBalance": 61000.0,
+    "notes": ""
+  },
+  {
+    "id": "acc_3",
+    "name": "Faysal Bank",
+    "type": "Bank",
+    "openingBalance": 2437.0,
+    "notes": ""
+  },
+  {
+    "id": "acc_4",
+    "name": "EasyPaisa",
+    "type": "Mobile Wallet",
+    "openingBalance": 3780.0,
+    "notes": ""
+  },
+  {
+    "id": "acc_5",
+    "name": "Factory",
+    "type": "Cash",
+    "openingBalance": 100000.0,
+    "notes": ""
+  },
+  {
+    "id": "acc_6",
+    "name": "Kashif",
+    "type": "Cash",
+    "openingBalance": 15000.0,
+    "notes": ""
+  },
+  {
+    "id": "acc_7",
+    "name": "Outside",
+    "type": "Cash",
+    "openingBalance": 0.0,
+    "notes": ""
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "types": [
+    "Expense",
+    "Income",
+    "Transfer"
+  ],
+  "transferCategories": [
+    "Account Transfer"
+  ],
+  "transferSubCategories": [
+    "ATM Withdrawal",
+    "Savings Deposit",
+    "Credit Card Payment",
+    "Wallet Top-up",
+    "Cash Deposit",
+    "Between Accounts",
+    "Loan"
+  ],
+  "paymentMethods": [
+    "Cash",
+    "Debit Card",
+    "Credit Card",
+    "Bank Transfer",
+    "Mobile Wallet",
+    "Cheque",
+    "Online Payment"
+  ],
+  "accountTypes": [
+    "Bank",
+    "Cash",
+    "Credit Card",
+    "Mobile Wallet",
+    "Savings",
+    "Investment",
+    "Other"
+  ],
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ]
+}

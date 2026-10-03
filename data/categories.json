@@ -1,0 +1,243 @@
+{
+  "expense": [
+    {
+      "name": "Housing",
+      "subs": [
+        "Rent",
+        "Mortgage / Installment",
+        "Maintenance & Repairs",
+        "Society Charges",
+        "Property Tax",
+        "Furniture",
+        "Home Insurance"
+      ]
+    },
+    {
+      "name": "Utilities",
+      "subs": [
+        "Electricity",
+        "Gas",
+        "Water",
+        "Internet",
+        "Mobile",
+        "TV / Cable",
+        "Solar / UPS"
+      ]
+    },
+    {
+      "name": "Food & Groceries",
+      "subs": [
+        "Groceries",
+        "Vegetables & Fruits",
+        "Meat & Poultry",
+        "Dairy & Bakery",
+        "Drinking Water",
+        "Snacks & Beverages"
+      ]
+    },
+    {
+      "name": "Dining Out",
+      "subs": [
+        "Restaurants",
+        "Fast Food",
+        "Food Delivery",
+        "Cafe & Tea"
+      ]
+    },
+    {
+      "name": "Transportation",
+      "subs": [
+        "Fuel",
+        "Car Maintenance",
+        "Ride Hailing",
+        "Public Transport",
+        "Parking & Tolls",
+        "Vehicle Insurance",
+        "Vehicle Tax / Token"
+      ]
+    },
+    {
+      "name": "Household Help",
+      "subs": [
+        "Maid",
+        "Driver",
+        "Cook",
+        "Guard",
+        "Gardener"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "subs": [
+        "Doctor",
+        "Medicines",
+        "Lab Tests",
+        "Hospital",
+        "Dental",
+        "Health Insurance"
+      ]
+    },
+    {
+      "name": "Education",
+      "subs": [
+        "School Fees",
+        "Tuition",
+        "Books & Stationery",
+        "Uniform",
+        "School Van",
+        "Courses"
+      ]
+    },
+    {
+      "name": "Personal Care",
+      "subs": [
+        "Salon / Barber",
+        "Cosmetics",
+        "Toiletries",
+        "Gym / Fitness"
+      ]
+    },
+    {
+      "name": "Clothing",
+      "subs": [
+        "Clothes",
+        "Shoes",
+        "Accessories",
+        "Tailoring"
+      ]
+    },
+    {
+      "name": "Kids",
+      "subs": [
+        "Toys",
+        "Baby Care",
+        "Activities",
+        "Pocket Money"
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "subs": [
+        "Streaming Subscriptions",
+        "Movies & Events",
+        "Hobbies",
+        "Outings",
+        "Games"
+      ]
+    },
+    {
+      "name": "Shopping & Electronics",
+      "subs": [
+        "Electronics",
+        "Appliances",
+        "Home Decor",
+        "Kitchenware",
+        "Online Shopping"
+      ]
+    },
+    {
+      "name": "Travel",
+      "subs": [
+        "Flights",
+        "Hotels",
+        "Local Travel",
+        "Visa & Documents"
+      ]
+    },
+    {
+      "name": "Gifts & Donations",
+      "subs": [
+        "Gifts",
+        "Charity / Sadqa",
+        "Zakat",
+        "Religious",
+        "Weddings & Events"
+      ]
+    },
+    {
+      "name": "Financial",
+      "subs": [
+        "Bank Charges",
+        "Loan Repayment",
+        "Interest",
+        "Insurance Premium",
+        "Taxes",
+        "Card Fees"
+      ]
+    },
+    {
+      "name": "Pets",
+      "subs": [
+        "Pet Food",
+        "Vet",
+        "Pet Supplies"
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        "Other",
+        "Unplanned",
+        "Fines / Penalties"
+      ]
+    }
+  ],
+  "income": [
+    {
+      "name": "Salary",
+      "subs": [
+        "Basic Salary",
+        "Bonus",
+        "Allowances",
+        "Overtime"
+      ]
+    },
+    {
+      "name": "Business",
+      "subs": [
+        "Sales",
+        "Freelance",
+        "Consulting"
+      ]
+    },
+    {
+      "name": "Investments",
+      "subs": [
+        "Profit / Interest",
+        "Dividends",
+        "Capital Gains"
+      ]
+    },
+    {
+      "name": "Rental Income",
+      "subs": [
+        "House Rent",
+        "Shop Rent"
+      ]
+    },
+    {
+      "name": "Other Income",
+      "subs": [
+        "Gifts Received",
+        "Refunds",
+        "Cashback",
+        "Sale of Items",
+        "Other"
+      ]
+    }
+  ],
+  "transfer": [
+    {
+      "name": "Account Transfer",
+      "subs": [
+        "ATM Withdrawal",
+        "Savings Deposit",
+        "Credit Card Payment",
+        "Wallet Top-up",
+        "Cash Deposit",
+        "Between Accounts",
+        "Loan"
+      ]
+    }
+  ]
+}
