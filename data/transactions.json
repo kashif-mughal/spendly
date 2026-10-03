@@ -348,5 +348,19 @@
     "paymentMethod": "Cash",
     "description": "Khera, kari patta",
     "notes": ""
+  },
+  {
+    "id": "txn_muspkk7nbwi4w",
+    "date": "2026-10-03",
+    "template": "Groceries",
+    "type": "Expense",
+    "category": "Food & Groceries",
+    "subCategory": "Groceries",
+    "account": "Home Account",
+    "toAccount": "",
+    "amount": 2050,
+    "paymentMethod": "Cash",
+    "description": "chawal, masalah, tail",
+    "notes": ""
   }
 ]
