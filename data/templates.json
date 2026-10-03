@@ -7,7 +7,7 @@
     "subCategory": "Basic Salary",
     "account": "HBL",
     "toAccount": "",
-    "amount": 380000.0,
+    "amount": 380000,
     "paymentMethod": "Bank Transfer",
     "description": "Monthly salary"
   },
@@ -19,7 +19,7 @@
     "subCategory": "Rent",
     "account": "HBL",
     "toAccount": "",
-    "amount": 24000.0,
+    "amount": 24000,
     "paymentMethod": "Online Payment",
     "description": "Monthly house rent"
   },
@@ -31,7 +31,7 @@
     "subCategory": "Electricity",
     "account": "HBL",
     "toAccount": "",
-    "amount": 0.0,
+    "amount": 0,
     "paymentMethod": "Online Payment",
     "description": "Electricity bill"
   },
@@ -43,7 +43,7 @@
     "subCategory": "Gas",
     "account": "HBL",
     "toAccount": "",
-    "amount": 0.0,
+    "amount": 0,
     "paymentMethod": "Online Payment",
     "description": "Gas bill"
   },
@@ -55,7 +55,7 @@
     "subCategory": "Internet",
     "account": "HBL",
     "toAccount": "",
-    "amount": 1000.0,
+    "amount": 1000,
     "paymentMethod": "Online Payment",
     "description": "Home internet"
   },
@@ -67,7 +67,7 @@
     "subCategory": "Mobile",
     "account": "Mobile Wallet",
     "toAccount": "",
-    "amount": 200.0,
+    "amount": 200,
     "paymentMethod": "Mobile Wallet",
     "description": "Mobile package"
   },
@@ -79,7 +79,7 @@
     "subCategory": "Groceries",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 0.0,
+    "amount": 0,
     "paymentMethod": "Cash",
     "description": "Grocery"
   },
@@ -91,7 +91,7 @@
     "subCategory": "Fuel",
     "account": "Kashif",
     "toAccount": "",
-    "amount": 2000.0,
+    "amount": 2000,
     "paymentMethod": "Cash",
     "description": "Patrol"
   },
@@ -103,7 +103,7 @@
     "subCategory": "School Fees",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 500.0,
+    "amount": 500,
     "paymentMethod": "Cash",
     "description": "Kids school fee"
   },
@@ -115,7 +115,7 @@
     "subCategory": "Tuition",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 1000.0,
+    "amount": 1000,
     "paymentMethod": "Cash",
     "description": "Kids tution fee"
   },
@@ -127,7 +127,7 @@
     "subCategory": "ATM Withdrawal",
     "account": "HBL",
     "toAccount": "Home Account",
-    "amount": 49000.0,
+    "amount": 49000,
     "paymentMethod": "Cash",
     "description": "ATM cash withdrawal"
   },
@@ -139,7 +139,7 @@
     "subCategory": "Wallet Top-up",
     "account": "HBL",
     "toAccount": "EasyPaisa",
-    "amount": 0.0,
+    "amount": 0,
     "paymentMethod": "Bank Transfer",
     "description": "Top-up mobile wallet"
   },
@@ -151,7 +151,7 @@
     "subCategory": "Dairy & Bakery",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 960.0,
+    "amount": 960,
     "paymentMethod": "Cash",
     "description": "4 KG doodh"
   },
@@ -163,7 +163,7 @@
     "subCategory": "Dairy & Bakery",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 480.0,
+    "amount": 480,
     "paymentMethod": "Cash",
     "description": "2 KG doodh"
   },
@@ -175,7 +175,7 @@
     "subCategory": "Public Transport",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 180.0,
+    "amount": 180,
     "paymentMethod": "Cash",
     "description": "Chingchi kiraya"
   },
@@ -187,7 +187,7 @@
     "subCategory": "Drinking Water",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 30.0,
+    "amount": 30,
     "paymentMethod": "Cash",
     "description": "Paani"
   },
@@ -199,7 +199,7 @@
     "subCategory": "Society Charges",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 3000.0,
+    "amount": 3000,
     "paymentMethod": "Cash",
     "description": "Flat maintenance"
   },
@@ -211,7 +211,7 @@
     "subCategory": "Gas",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 2000.0,
+    "amount": 2000,
     "paymentMethod": "Cash",
     "description": "Gas cylander refill"
   },
@@ -223,7 +223,7 @@
     "subCategory": "Loan",
     "account": "HBL",
     "toAccount": "Outside",
-    "amount": 0.0,
+    "amount": 0,
     "paymentMethod": "Cash",
     "description": "Loan given to"
   },
@@ -235,7 +235,7 @@
     "subCategory": "Restaurants",
     "account": "Kashif",
     "toAccount": "",
-    "amount": 0.0,
+    "amount": 0,
     "paymentMethod": "Cash",
     "description": "Lunch"
   },
@@ -247,7 +247,7 @@
     "subCategory": "Snacks & Beverages",
     "account": "Home Account",
     "toAccount": "",
-    "amount": 0.0,
+    "amount": 0,
     "paymentMethod": "Cash",
     "description": "Snacks for kids"
   }

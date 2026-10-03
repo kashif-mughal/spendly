@@ -1,9 +1,9 @@
 {
   "currency": "PKR",
   "currencySymbol": "Rs",
-  "locale": "en-PK",
   "appName": "House Expense Manager",
+  "version": "1.0",
+  "locale": "en-PK",
   "defaultYear": 2026,
-  "startOfWeek": 1,
-  "version": "1.0"
+  "startOfWeek": 1
 }
