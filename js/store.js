@@ -17,10 +17,28 @@
   var IDB_STORE = 'handles';
   var IDB_TIMEOUT = 1200;
 
-  /* The File System Access API needs a real origin; from file:// the picker
-     throws and IndexedDB stalls, so the whole folder feature is off there. */
+  /* The File System Access API reaches the machine the browser runs on, never
+     the server's disk - so on a deployed origin this syncs to a folder on the
+     viewer's own computer. That is allowed on purpose: it is how a deployed
+     copy keeps the local data/*.json in step. It needs a real origin, though;
+     from file:// the picker throws and IndexedDB stalls. */
+
+  /* Null when the folder feature can run here, otherwise why it cannot. */
+  function folderBlockedReason() {
+    if (location.protocol === 'file:') {
+      return 'Opening the page as a file blocks folder access. Serve it over http (see README) or use Export instead.';
+    }
+    if (!global.isSecureContext) {
+      return 'Folder access needs a secure page. Use https, or http://localhost, or Export instead.';
+    }
+    if (!global.indexedDB || !global.showDirectoryPicker) {
+      return 'This browser cannot write files directly - Chrome and Edge can. Use Export instead.';
+    }
+    return null;
+  }
+
   function folderCapable() {
-    return location.protocol !== 'file:' && !!global.indexedDB && !!global.showDirectoryPicker;
+    return folderBlockedReason() === null;
   }
 
   var DEFAULTS = {
@@ -259,12 +277,8 @@
   function supportsFolder() { return folderCapable(); }
 
   function connectFolder() {
-    if (!supportsFolder()) {
-      var why = location.protocol === 'file:'
-        ? 'Opening the page as a file blocks folder access. Serve the folder over http (see README) or use Export instead.'
-        : 'This browser cannot write files directly - Chrome and Edge can. Use Export instead.';
-      return Promise.reject(new Error(why));
-    }
+    var why = folderBlockedReason();
+    if (why) return Promise.reject(new Error(why));
     return global.showDirectoryPicker({ mode: 'readwrite', id: 'hem-data' })
       .then(function (handle) {
         dirHandle = handle;
@@ -330,7 +344,8 @@
     lists:        function () { return state.lists; },
     settings:     function () { return state.settings; },
     pref: pref,
-    supportsFolder: supportsFolder, connectFolder: connectFolder,
+    supportsFolder: supportsFolder, folderBlockedReason: folderBlockedReason,
+    connectFolder: connectFolder,
     disconnectFolder: disconnectFolder, folderName: folderName,
     resetToBundled: resetToBundled, importAll: importAll, exportAll: exportAll
   };

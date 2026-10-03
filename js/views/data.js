@@ -31,11 +31,12 @@
         rows.appendChild(U.el('dd', null, [v]));
       }
       row('Working copy', U.el('span', { text: 'This browser (localStorage) — saved automatically after every change.' }));
+      var blocked = Store.folderBlockedReason();
       row('JSON files', folder
         ? U.el('span', { class: 'pos', text: 'Connected to folder "' + folder + '" — every change is written straight to its .json files.' })
-        : U.el('span', { text: Store.supportsFolder()
-            ? 'Not connected. Connect the project\'s data folder to have changes written to the real .json files.'
-            : 'This browser cannot write files directly (Chrome or Edge can). Use Export below to save the JSON.' }));
+        : U.el('span', { text: blocked
+            ? blocked
+            : 'Not connected. Connect the project\'s data folder to have changes written to the real .json files.' }));
       row('Bundled copy', U.el('span', { text: 'data/*.json shipped with the app — the starting point and the "reset" source.' }));
       whereCard.body.appendChild(rows);
 
