@@ -4,7 +4,6 @@
   "Food & Groceries": 30000,
   "Dining Out": 9000,
   "Transportation": 20000,
-  "Household Help": 15000,
   "Healthcare": 8000,
   "Education": 30000,
   "Personal Care": 5000,
@@ -16,5 +15,6 @@
   "Gifts & Donations": 5000,
   "Financial": 3000,
   "Pets": 0,
-  "Miscellaneous": 3000
+  "Miscellaneous": 3000,
+  "Household And Cleaning": 15000
 }

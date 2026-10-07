@@ -57,13 +57,12 @@
       ]
     },
     {
-      "name": "Household Help",
+      "name": "Household And Cleaning",
       "subs": [
-        "Maid",
-        "Driver",
-        "Cook",
-        "Guard",
-        "Gardener"
+        "Cleaning",
+        "Bathing",
+        "Laundry",
+        "Household"
       ]
     },
     {
