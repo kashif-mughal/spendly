@@ -8,7 +8,7 @@
     "account": "HBL",
     "toAccount": "",
     "amount": 380000,
-    "paymentMethod": "Bank Transfer",
+    "paymentMethod": "Online Payment",
     "description": "Monthly salary"
   },
   {
@@ -112,7 +112,7 @@
     "name": "Tution Fee",
     "type": "Expense",
     "category": "Education",
-    "subCategory": "Tuition",
+    "subCategory": "Tution",
     "account": "Home Account",
     "toAccount": "",
     "amount": 1000,
@@ -197,10 +197,10 @@
     "type": "Expense",
     "category": "Housing",
     "subCategory": "Society Charges",
-    "account": "Home Account",
+    "account": "HBL",
     "toAccount": "",
     "amount": 3000,
-    "paymentMethod": "Cash",
+    "paymentMethod": "Online Payment",
     "description": "Flat maintenance"
   },
   {

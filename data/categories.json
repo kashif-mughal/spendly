@@ -80,11 +80,11 @@
       "name": "Education",
       "subs": [
         "School Fees",
-        "Tuition",
         "Books & Stationery",
         "Uniform",
         "School Van",
-        "Courses"
+        "Courses",
+        "Tution"
       ]
     },
     {
